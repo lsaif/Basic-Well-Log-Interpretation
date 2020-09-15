@@ -1,4 +1,6 @@
-﻿# Basic-Well-Log-Interpretation
-﻿
-﻿Adapted from Mihai's petroGG and has been modified so that lasio will handle the input. Add gamma ray minimum and maximum from frequency distribution for each interval.
-﻿<p> Check the Jupyter notebook!</p>
+## Basic-Well-Log-Interpretation
+
+Adapted from Mihai's petroGG and has been modified as follows:
+- Made an input function to handle LAS files using lasio, no need to convert to txt
+- Simplyfying vshale calculation so you can call directly to the function. Iteration are put inside the function
+- Added Indonesian and Simandoux for water saturation equation
